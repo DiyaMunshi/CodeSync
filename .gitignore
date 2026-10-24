@@ -1,0 +1,17 @@
+
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Local saved submissions and solutions
+data/submissions.json
+solutions/
+
+# Local configuration and secrets
+.env
+config.json
+
+# macOS
+.DS_Store

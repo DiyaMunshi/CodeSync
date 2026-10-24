@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "CodeSync - LeetCode Saver",
+  "version": "1.0.0",
+  "description": "Save your LeetCode solutions to your local CodeSync server.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "http://127.0.0.1:5050/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
