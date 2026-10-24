@@ -229,9 +229,3 @@ Potential improvements include:
 ## 🎯 Motivation
 
 CodeSync was created to make coding practice more organized and less repetitive. By combining a browser extension, a local backend, and GitHub integration, it provides a simple workflow for maintaining a personal coding portfolio.
-
-## 📄 License
-
-CodeSync is licensed under the [MIT License](LICENSE).
-
-You are free to use, modify, and distribute this software in accordance with the terms of the license.
