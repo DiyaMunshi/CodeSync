@@ -232,4 +232,6 @@ CodeSync was created to make coding practice more organized and less repetitive.
 
 ## 📄 License
 
-Choose a license before distributing or reusing this project. If you intend to make CodeSync open source, consider adding an MIT License in a `LICENSE` file.
+CodeSync is licensed under the [MIT License](LICENSE).
+
+You are free to use, modify, and distribute this software in accordance with the terms of the license.
